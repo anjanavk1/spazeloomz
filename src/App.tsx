@@ -13,6 +13,7 @@ import NotFound from "./pages/NotFound";
 import Men from "./pages/Men";
 import Women from "./pages/Women";
 import Perfumes from "./pages/Perfumes";
+import Unisex from "./pages/Unisex";
 
 const queryClient = new QueryClient();
 
@@ -29,6 +30,7 @@ const App = () => (
           <Route path="/collections/men" element={<Men />} />
           <Route path="/collections/women" element={<Women />} />
           <Route path="/collections/perfumes" element={<Perfumes />} />
+          <Route path="/collections/unisex" element={<Unisex />} />
           <Route path="/product/:id" element={<ProductDetail />} />
           <Route path="/about" element={<About />} />
           <Route path="*" element={<NotFound />} />

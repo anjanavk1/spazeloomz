@@ -7,7 +7,7 @@ const navLinks = [
   { label: "Home", path: "/" },
   { label: "Men", path: "/collections/men" },
   { label: "Women", path: "/collections/women" },
-  { label: "Perfumes", path: "/collections/perfumes" },
+  { label: "Unisex", path: "/collections/unisex" },
   { label: "About", path: "/about" },
 ];
 
